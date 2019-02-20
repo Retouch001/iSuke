@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  iSuke
+
+  Created by Tang Retouch on 2018/9/11.
+  Copyright © 2018 Tang Retouch. All rights reserved.
+*/
+
+"UN_SET_NIKENAME" = "Unassigned nickname";
+"PHOTO_ALBUM" = "Photo album";
+"TAKE_PICTURE" = "Take picture";
+"CANCEL" = "Cancel";
+"NO_NOTIFICATION" = "You have not received the message notification";
+"ADD_DEVICE" = "Add devices to enable intelligent life";
+"NO_NETWORK" = "Network problems, please check the network";
+"MY_DEVICE" = "My Devices";
+"SHARED_DEVICE" = "Shared Devices";
+"SWITCH_ON" = "ON";
+"SWITCH_OFF" = "OFF";
+"CONFIRM" = "Confirm";
+"SET_REMARK" = "Set remark";
+"NO_SHAREDUSER" = "No Shared devices to friends";
+"DELETE" = "Delete";
+"REMARK" = "Remark";
+"NOTIMETASK" = "You haven't added timed opening yet";

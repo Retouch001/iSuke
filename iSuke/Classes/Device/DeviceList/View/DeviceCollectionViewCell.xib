@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DeviceCollectionViewCell" customModule="iSuke" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="121"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y79-0R-pdo">
+                    <rect key="frame" x="5" y="5" width="125" height="111"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_socket" translatesAutoresizingMaskIntoConstraints="NO" id="hIa-fB-1Zu">
+                            <rect key="frame" x="32.5" y="15.5" width="60" height="60"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="厨房插座" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tpg-39-Aa5">
+                            <rect key="frame" x="30" y="80.5" width="65.5" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.93725490199999995" green="0.54117647059999996" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Tpg-39-Aa5" firstAttribute="centerX" secondItem="y79-0R-pdo" secondAttribute="centerX" id="4K5-iF-Av7"/>
+                        <constraint firstItem="Tpg-39-Aa5" firstAttribute="top" secondItem="hIa-fB-1Zu" secondAttribute="bottom" constant="5" id="cgQ-Nw-fap"/>
+                        <constraint firstItem="hIa-fB-1Zu" firstAttribute="centerY" secondItem="y79-0R-pdo" secondAttribute="centerY" constant="-10" id="jr9-Ct-VAJ"/>
+                        <constraint firstItem="hIa-fB-1Zu" firstAttribute="centerX" secondItem="y79-0R-pdo" secondAttribute="centerX" id="mXF-11-4Ys"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_choose3" translatesAutoresizingMaskIntoConstraints="NO" id="qQ4-Ff-xud">
+                    <rect key="frame" x="15" y="15" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Ffb-L3-S9v"/>
+                        <constraint firstAttribute="width" constant="20" id="IRR-hf-99f"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="qQ4-Ff-xud" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="05b-6n-auG"/>
+                <constraint firstItem="qQ4-Ff-xud" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="6Pi-O7-0Nm"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="y79-0R-pdo" secondAttribute="bottom" constant="5" id="Hld-s3-Mt5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="y79-0R-pdo" secondAttribute="trailing" constant="5" id="NxX-VC-LGy"/>
+                <constraint firstItem="y79-0R-pdo" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="hHj-Ev-w70"/>
+                <constraint firstItem="y79-0R-pdo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="yVr-UX-KtN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backGroundView" destination="y79-0R-pdo" id="Dih-r9-BX9"/>
+                <outlet property="chooseImageView" destination="qQ4-Ff-xud" id="6r3-iQ-54W"/>
+                <outlet property="deviceNameLabel" destination="Tpg-39-Aa5" id="eqw-o7-u71"/>
+                <outlet property="icon" destination="hIa-fB-1Zu" id="kWd-h9-Tsm"/>
+            </connections>
+            <point key="canvasLocation" x="-23.199999999999999" y="267.61619190404798"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_choose3" width="26" height="26"/>
+        <image name="ic_socket" width="60" height="60"/>
+    </resources>
+</document>

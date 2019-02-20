@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  iSuke
+
+  Created by Tang Retouch on 2018/9/11.
+  Copyright © 2018 Tang Retouch. All rights reserved.
+*/
+
+"UN_SET_NIKENAME" = "未设置昵称";
+"PHOTO_ALBUM" = "相册";
+"TAKE_PICTURE" = "照相";
+"CANCEL" = "取消";
+"NO_NOTIFICATION" = "您还没有收到消息通知";
+"ADD_DEVICE" = "添加设备，开启智能生活";
+"NO_NETWORK" = "网络出现问题，请检查网络";
+"MY_DEVICE" = "我的设备";
+"SHARED_DEVICE" = "共享的设备";
+"SWITCH_ON" = "已开启";
+"SWITCH_OFF" = "已关闭";
+"CONFIRM" = "确定";
+"SET_REMARK" = "设置备注";
+"NO_SHAREDUSER" = "没有共享设备给好友~";
+"DELETE" = "删除";
+"REMARK" = "备注";
+"NOTIMETASK" = "您还没有添加定时开启~";
